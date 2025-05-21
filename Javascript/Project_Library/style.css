@@ -1,0 +1,40 @@
+:root{
+    --light-grey: #c6ccd297;
+    --black: #000;
+    --white: #ffffff;
+    --radius: 8px;
+}
+
+body {
+    background-color: var(--light-grey);
+    padding: 30px 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Arial, sans-serif, Times, serif;
+}
+
+.add-book {
+  background-color: var(--black);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 500;
+  transition: var(--transition);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-book:hover {
+  background-color: var(--black);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
