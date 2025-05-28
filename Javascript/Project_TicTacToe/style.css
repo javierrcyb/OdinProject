@@ -1,0 +1,31 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;    
+}
+
+.game-board .cell{
+    width: 90px;
+    height: 90px;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    float: left;
+    background: white;
+}
+
+.game-board{
+    width: 276px;
+    text-align: center;;
+}
+
+.results{
+    position: relative;
+    top: 20px;
+    height: 1rem;
+}
